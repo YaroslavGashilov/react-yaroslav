@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  padding: 0 30px;
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+  padding: 15px 0;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.col.m6 {
+  width: 75% !important;
+}
+
+.card {
+  height: 430px;
+}
+
+.card-image {
+  height: 284px;
+}
+
+.search-btn {
+  position: absolute;
+  top:8px;
+  right: 5px;
+}
+
+.ml:not(:last-child) {
+  margin-right: 10px;
+}
+
+.pln {
+  padding-left:25px !important;
+}
